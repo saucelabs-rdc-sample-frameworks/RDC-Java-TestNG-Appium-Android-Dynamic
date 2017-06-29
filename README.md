@@ -17,7 +17,7 @@
 2. TestObject Credentials
     * Add your TestObject API Key in line 52
     ```
-    capabilities.setCapability("testobject_api_key", "API_KEY");
+    capabilities.setCapability("testobject_api_key", "ADD_API_KEY_HERE");
     ```
 3. TestObject Credentials
     * Ensure that your account has access to the devices below. If not, adjust accordingly

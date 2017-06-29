@@ -53,8 +53,8 @@ public class TestSetup {
       capabilities.setCapability("deviceName", deviceName);
       capabilities.setCapability("platformVersion", platformVersion);
       capabilities.setCapability("platformName", platformName);
-      capabilities.setCapability("testobject_test_name",  methodName);
-      capabilities.setCapability("testobject_appium_version", "1.6.5");
+      capabilities.setCapability("name",  methodName);
+      capabilities.setCapability("appiumVersion", "1.6.5");
 
       driver.set(new AndroidDriver<WebElement>(
               new URL("http://us1.appium.testobject.com/wd/hub"),
