@@ -14,19 +14,19 @@
     ```
     $ brew install maven
     ```
-2. TestObject Credentials
-    * Add your TestObject API Key in line 52
-    ```
-    capabilities.setCapability("testobject_api_key", "ADD_API_KEY_HERE");
-    ```
-3. TestObject Credentials
-    * Ensure that your account has access to the devices below. If not, adjust accordingly
-    ```
-    new Object[]{"Android", "Samsung Galaxy S6", "6"},
-    new Object[]{"Android", "Google Pixel", "7"}
-    ```
 
-4. Project Dependencies
+2.  TestObject Credentials and Appium Endpoint
+    * Export your API key to authenticate to TestObject
+    ```
+    $ export TESTOBJECT_API_KEY=<your_api_key>
+    ```
+    
+    * Export the TestObject Appium endpoint of your choosing
+    ```
+    $ export APPIUM_URL=<appium_endpoint_url>
+    ```
+    
+3. Project Dependencies
     * Check that packages are available
     ```
     $ cd Java-TestNG-Appium-Android-Dynamic
