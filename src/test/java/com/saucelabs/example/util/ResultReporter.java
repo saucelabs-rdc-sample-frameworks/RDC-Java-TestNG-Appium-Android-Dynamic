@@ -9,7 +9,7 @@ import java.util.Collections;
 
 public class ResultReporter {
 
-    private static final String TESTOBJECT_APPIUM_API_ENDPOINT = "https://app.testobject.com/api/rest/v1/appium/";
+    private static final String TESTOBJECT_APPIUM_API_ENDPOINT = "https://app.testobject.com/api/rest/v2/appium/";
 
     private WebTarget resource;
 
