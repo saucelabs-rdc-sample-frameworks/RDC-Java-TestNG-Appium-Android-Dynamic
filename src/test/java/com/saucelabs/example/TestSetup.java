@@ -13,9 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.openqa.selenium.OutputType;
 
@@ -41,8 +39,8 @@ public class TestSetup {
   public static Object[][] sauceBrowserDataProvider(Method testMethod) {
       return new Object[][]{
     		  //Verify that your account has access to the devices below
-              new Object[]{"Android", "Samsung Galaxy S6", "6"},
-              new Object[]{"Android", "Google Pixel", "7"}
+              new Object[]{"Android", "Samsung Galaxy S6", "7"},
+              new Object[]{"Android", "LG Nexus 5X", "8"}
       };
   }
   
